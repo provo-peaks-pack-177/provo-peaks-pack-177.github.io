@@ -10,7 +10,6 @@ by Matt Graham
 @import "fonts";
 @import "octicons";
 @import "header";
-@import "page-nav";
 @import "footer";
 @import "banner";
 @import "pygment_trac";
@@ -208,10 +207,6 @@ small {
     margin: 0;
   }
 
-  nav{
-    display: none;
-  }
-
   header, section, footer {
     float:none;
 
@@ -234,21 +229,6 @@ small {
       max-width: none;
     }
 
-    .downloads {
-        margin-right: 20px;
-      }
-
-    .fork {
-      left: 50%;
-      position: relative;
-      margin-left: -325px;
-    }
-
-    #logo {
-      margin-right: 5px;
-      float: right;
-      position: relative;
-    }
   }
 
   section {
@@ -336,7 +316,10 @@ small {
     margin-top: 5px;
   }
 
-  #banner { display: none;}
+  #banner {
+    position: relative;
+    top: auto;
+  }
   header ul {
     display:none;
   }
