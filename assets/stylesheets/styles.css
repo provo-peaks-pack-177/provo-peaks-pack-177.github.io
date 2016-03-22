@@ -1660,7 +1660,7 @@ small {
     #banner .banner-inner {
       float: none;
       margin: 0 auto;
-      max-width: none; }
+      max-width: 600px; }
 
   section {
     border: 1px solid #e5e5e5;
